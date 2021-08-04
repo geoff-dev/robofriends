@@ -2,6 +2,10 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+    //just to show in production
+    // if (true){
+    //     throw new Error('Boooo');
+    // }
     return (
         <div>
             {
